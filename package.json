@@ -1,0 +1,19 @@
+{
+  "name": "node-js-yargs-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --config ./jest.config.json",
+    "coverage": "jest --coverage",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "yargs": "^17.4.1"
+  }
+}
